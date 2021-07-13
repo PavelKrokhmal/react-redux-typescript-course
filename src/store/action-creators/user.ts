@@ -12,6 +12,5 @@ export const fetchUsers = () => {
             dispatch({type: UserActionTypes.FETCH_USERS_ERROR, 
                 payload: 'FETCH USER ERROR!'});
         }
-        fetch('https://jsonplaceholder.typicode.com/users')
     }
 }
